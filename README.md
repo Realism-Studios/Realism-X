@@ -3,6 +3,8 @@ Probably the buggiest and most unplayable Realism upon release, several updates 
 
 If you're interested in reading the changelog, see the Changelog section at the bottom of this readme file.
 
+And if you have any questions or concerns, ask in our [Discord Server][discord].
+
 # What's Here?
 
 ## Source Code
@@ -14,6 +16,7 @@ This is where all of the code is located. For specifics regarding this, see [her
 
 [NSMBWer+]: https://github.com/Ryguy0777/NSMBWerPlus
 [explainKamekFolder]: https://github.com/Ryguy0777/NSMBWerPlus?tab=readme-ov-file#kamek
+[discord]: https://discord.gg/ycRTYaYPu3
 
 ### Bootstrap
 This is the code to compile the `Loader.bin` file used to inject the custom code into the game. Unfortunately,
