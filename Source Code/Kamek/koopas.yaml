@@ -1,0 +1,4 @@
+  - name: removeKoopalings
+    type: patch
+    addr_pal: 0x808f7100
+    data: '4e800020'

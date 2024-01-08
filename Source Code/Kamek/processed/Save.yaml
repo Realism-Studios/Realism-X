@@ -1,0 +1,22 @@
+hooks:
+- area_jpn: 2155325772
+  area_jpn2: 2155325836
+  area_kor: 2155325804
+  area_ntsc: 2155326076
+  area_ntsc2: 2155326140
+  area_pal: 2155326076
+  area_pal2: 2155326140
+  area_twn: 2155325804
+  name: DisableQuickSave
+  type: nop_insn
+- area_jpn: 2157115976
+  area_jpn2: 2157115992
+  area_kor: 2157133544
+  area_ntsc: 2157116680
+  area_ntsc2: 2157116696
+  area_pal: 2157116680
+  area_pal2: 2157116696
+  area_twn: 2157133464
+  name: DisableQuickSave
+  type: nop_insn
+source_files: []

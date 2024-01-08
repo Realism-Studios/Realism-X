@@ -1,0 +1,14 @@
+hooks:
+- addr_jpn: 2156785308
+  addr_jpn2: 2156785324
+  addr_kor: 2156802956
+  addr_ntsc: 2156786012
+  addr_ntsc2: 2156786028
+  addr_pal: 2156786012
+  addr_pal2: 2156786028
+  addr_twn: 2156802876
+  data: 3c800004
+  name: expandMapHeap
+  type: patch
+source_files:
+- ../src/endingMgr.cpp

@@ -1,0 +1,5 @@
+hooks: []
+source_files:
+- ../src/bossCaptainBowser.cpp
+- ../src/bossFlameThrower.cpp
+- ../src/bossKoopaThrow.cpp

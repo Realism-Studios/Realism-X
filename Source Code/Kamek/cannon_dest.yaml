@@ -1,0 +1,27 @@
+---
+source_files: []
+hooks:
+  - name: W1
+    type: patch
+    addr_pal: 0x802f4cf0
+    data: '00000004'
+  - name: W2
+    type: patch
+    addr_pal: 0x802f4cf4
+    data: '00000000'
+  - name: W3
+    type: patch
+    addr_pal: 0x802f4cf8
+    data: '00000003'
+  - name: W4
+    type: patch
+    addr_pal: 0x802f4cfc
+    data: '00000008'
+  - name: W5
+    type: patch
+    addr_pal: 0x802f4d00
+    data: '00000007'
+  - name: W6
+    type: patch
+    addr_pal: 0x802f4d04
+    data: '00000008'

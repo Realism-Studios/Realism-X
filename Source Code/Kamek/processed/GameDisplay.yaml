@@ -1,0 +1,14 @@
+hooks:
+- name: GameDisplayExecute
+  src_addr_jpn: 2150790264
+  src_addr_jpn2: 2150790264
+  src_addr_kor: 2150843456
+  src_addr_ntsc: 2150790928
+  src_addr_ntsc2: 2150790928
+  src_addr_pal: 2150791768
+  src_addr_pal2: 2150791768
+  src_addr_twn: 2150836224
+  target_func: dGameDisplay_c::newOnExecute(void)
+  type: add_func_pointer
+source_files:
+- ../src/gameDisplayHax.cpp

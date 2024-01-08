@@ -1,0 +1,8 @@
+---
+source_files: [../src/sceneGlue.cpp]
+hooks:
+  - name: DoOpeningLevel
+    type: branch_insn
+    branch_type: bl
+    src_addr_pal: 0x809191D4
+    target_func: 'EnterOpeningLevel'
