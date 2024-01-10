@@ -1,9 +1,9 @@
 # Realism-X
 Probably the buggiest and most unplayable Realism upon release, several updates have been made to make it better.
+It's not perfect though, so expect some bugs, glitches, and other bad things. Also before you ask, no I'm pretty
+sure it doesn't work on actual Wii hardware. So right now it's a "Dolphin Exclusive"...
 
-If you're interested in reading the changelog, see the Changelog section at the bottom of this readme file.
-
-And if you have any questions or concerns, ask in our [Discord Server][discord].
+If you have any questions or concerns, ask in our [Discord Server][discord].
 
 # What's Here?
 
@@ -14,13 +14,10 @@ original NSMBWer, which brings NewerSMBW's features to the retail game, while su
 ### Kamek
 This is where all of the code is located. For specifics regarding this, see [here][explainKamekFolder].
 
-[NSMBWer+]: https://github.com/Ryguy0777/NSMBWerPlus
-[explainKamekFolder]: https://github.com/Ryguy0777/NSMBWerPlus?tab=readme-ov-file#kamek
-[discord]: https://discord.gg/ycRTYaYPu3
-
 ### Bootstrap
 This is the code to compile the `Loader.bin` file used to inject the custom code into the game. Unfortunately,
-this code is the very same code seen in the very first releases of NewerSMBW's source code.
+this code is the very same code seen in the very first releases of NewerSMBW's source code, which means it's old
+and it sucks.
 
 Compiling it is a hassle that I personally haven't successfully done, so the chances of this being useful is probably
 very small. However, it's still here just for the sake of having *all* of the source code present.
@@ -30,7 +27,8 @@ This is the content you actually see in-game! The folder structure is pretty str
 self-explanatory, so there shouldn't really be any confusion there.
 
 The majority of the unused stuff in this patch has been removed in previous updates for the project, and all of the
-models have been compressed with ExtendedLZ77 to save some space.
+models have been compressed to save some space on your SD card (it actually helps a fair bit, there's some massive
+model archives in this mod).
 
 # Changelog
 ## Realism X v4.5 - January 6th, 2024
@@ -75,9 +73,15 @@ Known Bugs:
 ## Realism X v3 - October 11th, 2023
 - Added PAL support
 - Other unspecified changes
-	
+
 ## Realism X v2 - October 10th, 2023
 - Removed NSMLW powerup models from the download
 	
 ## Realism X v1 - October 9th?, 2023
 - Initial release
+
+
+<!-- Links -->
+[NSMBWer+]: https://github.com/Ryguy0777/NSMBWerPlus
+[explainKamekFolder]: https://github.com/Ryguy0777/NSMBWerPlus?tab=readme-ov-file#kamek
+[discord]: https://discord.gg/ycRTYaYPu3
